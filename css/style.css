@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  position: absolute;
+  margin: 0 3px 0 6px;
+
+  width: 1440px;
+  height: 2711px;
+  background: #D9D9D9;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+.conteiner {
+  width: 1140px;
+  margin: 0 auto;
+
+}
+
+.btn {
+  width: 190.59px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  border: 1px solid #FFFFFF;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*intro start*/
+.intro {
+  background: url('../img/logo.png');
+  width: 1431px;
+  height: 720px;
+
+
+
+}
+
+
+
+
+.intro-content {
+  height: 720px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.intro-title {
+  width: 396px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #F3F3F3;
+  line-height: 54px;
+
+}
+
+.intro-maybe {
+  margin-top: 9px;
+  width: 352.78px;
+  font-weight: 300;
+  font-size: 32px;
+  color: #F3F3F3;
+  line-height: 122.5%;
+}
+
+/*inro end*/
+.main-conteiner {
+  position: absolute;
+  visibility: hidden;
+  margin: 57px 150px 1768px 150px;
+  width: 1140px;
+  height: 166px;
+  background: #0B0000;
+}
+
+.hidden {
+  margin: 803px 262px 1794px 263px;
+  width: 915px;
+  height: 114px;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  visibility: hidden;
+  color: #FFFFFF;
+}
